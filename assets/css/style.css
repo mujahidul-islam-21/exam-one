@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+text-decoration: none;
+}
+
+ul,li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: "Overlock", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body{
+ font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* ***********************************************************************nev start sart*********************************************************************** */
+
+.all-hadder{
+margin-top: 0%;
+    background-image: url(../photos/banner\ img.png);
+    height: 800px;
+    
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container{
+   
+    /* background-color: aliceblue; */
+    margin-top: 50px;
+    border-radius: 10px;
+
+    .navbar-nav {
+    margin: 0 15%;
+    margin-top: 2%;
+
+    .nav-item a{
+       margin-right: 40px;
+       color: black;
+       cursor: pointer;
+    }
+   
+    
+    }
+    .collapse{
+        p{
+            font-size: 30px;
+           margin-top: 35px;
+           margin-left: 13%;
+           @media (max-width: 1199.98px) {
+            display: none;
+            }
+        }
+
+        span{
+
+            padding: 2px;
+            background-color: #E7272D;
+            border-radius: 50%;
+            margin-right: 30px;
+             @media (max-width: 1199.98px) {
+            display: none;
+            }
+        }
+
+        .lain-3{
+
+            @media (max-width: 1399.98px) { 
+                 display: none;
+            }
+
+           & @media (max-width: 767.98px) {
+            display: none;
+            }
+
+        }
+    }
+   
+   
+}
+
+/* ***********************************************************************nav ver end*********************************************************************** */
+
+/* ***********************************************************************banner img :start*********************************************************************** */
+
+    .container-two{
+
+        margin-left: 35%;
+        margin-top: 8%;
+        position: absolute;
+
+        @media (max-width: 1199.98px) { 
+            margin-left: 30%;
+         }
+
+        @media (max-width: 991.98px) { 
+            margin-left: 25%;
+         }
+
+         @media (max-width: 767.98px) { 
+            margin-left:8% ;
+          }
+
+         }
+
+
+
+        h1{
+        font-size: 145px;
+        color: aliceblue;
+    }
+
+    h3{
+        padding: 17px 51px;
+        background-color: #E7272D;
+       display: inline-block;
+        margin-left: 50%;
+    }
+    .d-flex{
+         p{
+        color: aliceblue;
+       
+    }
+
+    .scel{
+        width: 285px;
+        height: 2px;
+        background-color:  #E7272D;
+        margin-top: 15px;
+        margin-left: 27px;
+    }
+    } 
+    
+   /* ***********************************************************************banner img end*********************************************************************** */
+
+
+   /* *********************************************************************** best food start*********************************************************************** */
+
+    .Best-food {
+       margin-top: 80px;
+       margin-bottom: 80px;
+
+       .row{
+        img{
+          
+
+             @media(max-width: 1199.98px) { 
+                margin-left: 30px;
+             }
+            @media (max-width: 991.98px) { 
+                margin-left: 20px;
+             }
+              @media (max-width: 767.98px) {
+                margin-left: 0px;
+             } 
+
+        }
+        .col-xl-6{
+
+           
+                 @media(max-width: 1199.98px) { 
+               margin-top: 20px;
+               margin-left: 11px;
+              
+             }
+            @media (max-width: 991.98px) { 
+                margin-left: 10px;
+            }
+            @media (max-width: 767.98px) {
+                margin-left: 5px;
+             } 
+
+            h2{
+                max-width: 448px;
+                     @media(max-width: 1199.98px) { 
+               margin-top: 20px;
+               margin-left: 40px;
+              
+             }
+            @media (max-width: 991.98px) { 
+                margin-left: 30px;
+            }
+            @media (max-width: 767.98px) {
+                margin-left: 20px;
+             } 
+
+            .row{
+                .col-lg-6{
+
+                    .bracfast{
+                         
+                    }
+                    p{
+                        color: #666666;
+
+                    }
+
+                    a{
+                        strong{
+                             &:hover{
+                            background-color: black;
+                            font-size: 55px;
+                        }
+                        }
+                       
+                    }
+                }
+            }
+        }
+       }
+    }
+  
+    }
+/* ***********************************************************************best food end*********************************************************************** */
+   
+   
+/* ***********************************************************************Our Specials Menu start*********************************************************************** */
+
+
+/* ***********************************************************************fast part sart*********************************************************************** */
+   
+.food-menu{
+
+    .row{
+
+        .all-dishes{
+            width: 75%;
+            height: auto;
+            margin-left:15%;
+
+
+            .col-lg-2{
+ padding: 10px 10px;
+                &:hover{
+                   
+                    background-color:red ;
+                    border-radius: 25px;
+                    cursor:pointer;
+                }
+                strong{
+                    &:hover{
+                        color:#25095a ;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* ***********************************************************************fast part end*********************************************************************** */
+
+
+
+/* ***********************************************************************second  part sart*********************************************************************** */
+
+.container{
+    .row{
+       
+
+        .col-xl-4{
+
+         @media (max-width: 991.98px) { 
+            margin-left: 180px;
+            gap: 30px;
+          }
+
+          @media (max-width: 767.98px) { 
+            margin-left: 80px;
+            column-gap: 30px;
+           }
+          
+            .card{
+                .card-body{
+                    .position{
+                        width: 30%;
+                        height: 14%;
+                       
+                    }
+                    .flx-tow{
+                        &:hover{
+                            background-color: 		rgb(227, 181, 181) ;
+                        }
+                        a{
+                            margin-left: 70px;
+                            
+                            
+
+                             }  
+                           
+                            }
+                          
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* ***********************************************************************second  part end*********************************************************************** */
+.container{
+    .row{
+        
+    }
+}
+
+/* Our Specials Menu end */
+
+
+/* login pag start */
+
+    .login-page{
+    background-image: url(../photos/image\ 8.png);
+        margin-top: 0%;
+    height: auto;
+    
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .container{
+        .row{
+            .col-lg-6{
+                h2{
+                    max-width: 520px;
+                   
+                }
+
+                p{
+                    max-width: 540px;
+                }
+            }
+
+            .col-lg-6{
+                .bg-white{
+                    .p-5{
+                        .btn{
+                            &:hover{
+                                background-color:red ;
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    }
+
+/* ***********************************************************************login page end*********************************************************************** */
+
+
+/* ***********************************************************************Our Food Gallery start*********************************************************************** */
+.container{
+    
+
+    .col-xl-4{
+         @media (max-width: 991.98px) { 
+            margin-left: 180px;
+        
+          }
+
+          @media (max-width: 767.98px) { 
+            margin-left: 80px;
+           }
+
+           
+           @media (max-width: 1199.98px) { 
+            margin-left: 290px;
+            }
+    }
+ 
+    col-xl-8{
+       .row{
+            .col-xl-6
+          
+        }
+      
+
+    }
+}
+
+/* ***********************************************************************Our Food Gallery end*********************************************************************** */
+
+
+    /* ***********************************************************************footer star*********************************************************************** */
+
+.bg-black{
+    width: 100%;
+    height:auto;
+    background-color:  #1B1B1B;
+
+    .container{
+        .d-flex{
+            .line{
+                width: 530px;
+                height: 3px;
+              margin-top: 80px;
+
+            }
+        }
+
+       .row{
+        .col-lg-3{
+           strong {
+                
+            }
+            .icon-flx{
+                p{
+                       &:hover{
+                color: #515451;
+              }
+              cursor: pointer;
+                }
+           
+            }
+        }
+
+        .col-lg-4{
+            .email{
+                input{
+                     width: 350px;
+                height: 50px;
+                background-color: #1B1B1B;
+                }
+               
+            }
+            p{
+                &:hover{
+                    background-color: #1B1B1B;
+                    border-color: #00ff00;
+                }
+            }
+        }
+       }
+    }
+}
+
+
+/* ***********************************************************************footer star*********************************************************************** */
